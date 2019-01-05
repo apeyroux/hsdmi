@@ -1,0 +1,12 @@
+name: hsdmi
+version: 0.1
+github: https://github.com/apeyroux/hsdmi
+
+executable:
+  main: Main.hs
+  source-dirs: app
+  dependencies:
+    - base
+    - shelly
+    - text
+    - attoparsec

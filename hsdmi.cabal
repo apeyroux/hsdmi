@@ -1,0 +1,30 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.1.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 96292774e61a4c657dafc2edee0932bc33fc5d729b4f577de94c206afb399a9d
+
+name:           hsdmi
+version:        0.1
+homepage:       https://github.com/https://github.com/apeyroux/hsdmi#readme
+bug-reports:    https://github.com/https://github.com/apeyroux/hsdmi/issues
+build-type:     Simple
+
+source-repository head
+  type: git
+  location: https://github.com/https://github.com/apeyroux/hsdmi
+
+executable hsdmi
+  main-is: Main.hs
+  other-modules:
+      Paths_hsdmi
+  hs-source-dirs:
+      app
+  build-depends:
+      attoparsec
+    , base
+    , shelly
+    , text
+  default-language: Haskell2010
